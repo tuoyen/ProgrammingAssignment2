@@ -1,9 +1,9 @@
-# Coursera R Programming Assignment 2 
+## Coursera R Programming Assignment 2 
 ## This file contains a pair of functions that store a special matrix object
 ## and compute, cache, and retrieve its inverse.
 
-### Function makeCacheMatrix creates a special object that stores a matrix
-### and caches its inverse.
+## Function makeCacheMatrix creates a special object that stores a matrix
+## and caches its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -19,11 +19,11 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-### Function cacheSolve computes the inverse of the matrix returned by 
-### makeCacheMatrix and stores it in the cache. 
+## Function cacheSolve computes the inverse of the matrix returned by 
+## makeCacheMatrix and stores it in the cache. 
 
-### If the inverse has already been calculated, cacheSolve retrieves
-### the inverse matrix from the cache instead of calculating it again.
+## If the inverse has already been calculated, cacheSolve retrieves
+## the inverse matrix from the cache instead of calculating it again.
 
 
 cacheSolve <- function(x, ...) {
